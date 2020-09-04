@@ -1,0 +1,18 @@
+name: Doubloon
+version: ${project.version}
+main: me.tofpu.doubloon.Doubloon
+api-version: 1.16
+authors: [Tofpu]
+softdepend:
+  - PlaceholderAPI
+description: Currency Plugin
+website: Tofpu#3224
+commands:
+  doubloons:
+    description: shows how many doubloon they have
+    aliases:
+      - balance
+      - bal
+      - money
+  doubloon:
+    description: the main command
